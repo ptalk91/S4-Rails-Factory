@@ -1,24 +1,24 @@
-# README
+# > DBB of The Factory
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Contributeurs
 
-Things you may want to cover:
+- Dimitri KIAVUE | @Dimitri - BoyzIICode
+- Pierre Tâm-Anh LE KHAC | @Pierre Tâm-Anh - BoyzIICode
 
-* Ruby version
+## Lancer le projet 
 
-* System dependencies
+1) Cloner le repo ```git clone https://github.com/ptalk91/S4-Rails-Factory.git```
+2) Se mettre dans le dossier cloné puis ```bundle install``` 
+3) Créer la base de donnée avec la commande ```rails db:migrate```
+4) Finir par ```rails db:seed```
 
-* Configuration
+## Doc & Gems
 
-* Database creation
+ActiveRecord pour gérer la database sqlite3 database, et la gem "Faker" pour donner un sens à notre database sur le fichier seed.
 
-* Database initialization
+## Pour avoir accès à la base de données 
 
-* How to run the test suite
+Tu peux utiliser DB Browser for sqlite3
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+![](https://github.com/wilrib/The-Hacking-News/blob/master/img/25484553.png)
